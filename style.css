@@ -128,3 +128,9 @@
 	bottom: 0;
 	left: 0;
 }
+
+#footer a{
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
