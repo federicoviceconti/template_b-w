@@ -1,0 +1,130 @@
+#image_presentation{
+	background-image: url("http://lorempixel.com/gray/1920/1080");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#image_presentation p{
+	position: absolute;
+	background-color: black;
+	border-radius: 2px;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	color: white;
+	bottom: 0px;
+}
+
+#navigation ul {
+	font-size: 1em;
+	font-family: sans-serif;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#navigation li:first-child{
+	float: left;
+}
+
+#navigation li {
+	float: right;
+    display: block;
+    padding: 12px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navigation li a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.2s;
+}
+
+#navigation li a:hover{
+	padding: 16px;
+	background-color: white;
+	color: black;
+}
+
+#content1, #content2, #content3{
+	box-sizing: border-box;
+	float: left;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+
+#content1:hover, #content2:hover, #content3:hover{
+	background-color: gray;
+	transform:scale(1.01);
+}
+
+#choose_presentation{
+	color: white;
+	background-color: black;
+	list-style: none;
+	text-align: center;
+}
+
+#presentation_div{
+	margin: 0;
+	padding: 0;
+}
+
+#choose_presentation li{
+	font-size: 2em;
+	display: inline;
+	margin: 4px;
+	transition: 0.4s;
+}
+
+#choose_presentation li a{
+	text-decoration: none;
+	color: white;
+}
+
+#choose_presentation li:hover{
+	background-color: white;
+	color: black;
+	transform:scale(1.1);
+}
+
+.contact{
+	width: 100%;
+	position: relative;
+}
+
+.contact h2, p{
+	margin-left: 4px;
+}
+
+.description{
+	position: absolute;
+	bottom: 0px;
+	right: 16px; 
+	background-color:black; 
+	color:white;
+}
+
+.description h2, p{
+	margin-left: 4px;
+}
+
+#footer{
+	font-family: sans-serif;
+	color: white;
+	background-color: black;
+	margin: 4px;
+	padding: 4px;
+	bottom: 0;
+	left: 0;
+}
